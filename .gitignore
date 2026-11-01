@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+backend/serviceAccountKey*.json
+.env
+*.env
+# Local machine and IDE files
+local.properties
+.idea/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and runtime data
+backend/alerts.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+.env
+*.env
+backend/serviceAccountKey*.json
+# All Android/Gradle build outputs
+**/build/
+.gradle/
+
+# Python virtual environments
+**/.venv/
+**/venv/

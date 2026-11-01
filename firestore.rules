@@ -1,0 +1,46 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // User Profile Document Security Rules
+    match /users/{userId} {
+      // Allow authenticated user to read ONLY their own profile document
+      allow read: if isOwner(userId);
+
+      // Create: Users can create their initial profile document upon sign-up,
+      // but MUST NOT set privileged fields ('role' or 'isApproved') or set a mismatched 'uid'
+      allow create: if isOwner(userId) &&
+        request.resource.data.uid == userId &&
+        !request.resource.data.keys().hasAny(['role', 'isApproved']) &&
+        request.resource.data.keys().hasOnly([
+          'uid', 'displayName', 'email', 'mobileNumber', 'officeAddress',
+          'designation', 'organization', 'department', 'assignedTeam', 'createdAt', 'updatedAt'
+        ]);
+
+      // Update: Users can update ONLY non-privileged profile fields
+      allow update: if isOwner(userId) &&
+        !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'isApproved', 'uid', 'createdAt']) &&
+        request.resource.data.keys().hasOnly([
+          'uid', 'displayName', 'email', 'mobileNumber', 'officeAddress',
+          'designation', 'organization', 'department', 'assignedTeam', 'createdAt', 'updatedAt'
+        ]);
+
+      // Delete: Denied for client applications
+      allow delete: if false;
+    }
+
+    // Default Deny for all other unapproved paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

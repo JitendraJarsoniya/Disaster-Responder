@@ -1,0 +1,110 @@
+[
+  {
+    "id": "guide_flood",
+    "category": "Flood Safety",
+    "title": "Flood & Waterlogging Emergency Protocols",
+    "emergencyWarning": "🚨 IMMEDIATE DANGER: Turn off main power if water rises near electrical outlets. Never walk or drive through moving floodwaters. For urgent rescue in India, call National Emergency 112.",
+    "immediateActions": [
+      "Move immediately to higher ground or upper floors of a sturdy concrete building.",
+      "Keep emergency flashlight, battery-powered radio, clean water, and essential medicines ready.",
+      "Listen to official SACHET / CWC flood alerts on radio or phone.",
+      "Disconnect main electrical switches and LPG gas valves if safe to do so."
+    ],
+    "actionsToAvoid": [
+      "Do NOT walk, swim, or drive through moving floodwaters—6 inches of moving water can knock you down.",
+      "Do NOT touch electrical wires, power poles, or submerged electrical equipment.",
+      "Do NOT drink unboiled or flood-contaminated water."
+    ],
+    "evacuationAndShelter": [
+      "If advised by local disaster authorities to evacuate, leave immediately following designated safe routes.",
+      "Move calmly to designated Stadium or School Relief Shelters.",
+      "Help elderly persons, children, and persons with disabilities evacuate safely."
+    ],
+    "afterEventPrecautions": [
+      "Return home only when local government authorities declare it safe.",
+      "Inspect home for structural cracks, gas leaks, and damaged electrical wiring before entering.",
+      "Disinfect all flooded surfaces and drink boiled or bottled water only."
+    ]
+  },
+  {
+    "id": "guide_fire",
+    "category": "Fire Safety",
+    "title": "Fire & Smoke Evacuation Protocols",
+    "emergencyWarning": "🚨 IMMEDIATE DANGER: Toxic smoke kills faster than flames. Get low, stay below smoke, and evacuate immediately. Call Fire Control Room 101 or Emergency 112.",
+    "immediateActions": [
+      "Alert everyone in the building immediately by shouting or triggering the fire alarm.",
+      "Evacuate the building immediately using stairs.",
+      "Crawl low under smoke where air is cleaner and cooler.",
+      "Feel doors with the back of your hand before opening—if hot, do NOT open."
+    ],
+    "actionsToAvoid": [
+      "Do NOT use elevators/lifts during a fire emergency.",
+      "Do NOT open hot doors or doors where smoke is billowing underneath.",
+      "Do NOT re-enter a burning building for personal belongings under any circumstances."
+    ],
+    "evacuationAndShelter": [
+      "Proceed calmly to the pre-designated assembly point outside the building.",
+      "If trapped inside a room: Close doors, seal cracks with wet cloth, and signal for help at a window.",
+      "Call 101 or 112 and provide your exact room number and location."
+    ],
+    "afterEventPrecautions": [
+      "Seek immediate medical attention for smoke inhalation or burns, even if minor.",
+      "Do not re-enter damaged buildings until fire safety officers grant permission.",
+      "Contact insurance and local emergency relief authorities for rehabilitation support."
+    ]
+  },
+  {
+    "id": "guide_earthquake",
+    "category": "Earthquake Safety",
+    "title": "Earthquake Tremor & Structural Safety Protocols",
+    "emergencyWarning": "🚨 IMMEDIATE DANGER: DROP, COVER, and HOLD ON during tremors. Stay away from glass, windows, and unanchored walls. Call 112 if trapped.",
+    "immediateActions": [
+      "DROP to your hands and knees immediately.",
+      "COVER your head and neck under a sturdy table, desk, or interior furniture.",
+      "HOLD ON to your shelter until shaking completely stops.",
+      "If in bed: Stay in bed, cover your head with a pillow, and protect your face."
+    ],
+    "actionsToAvoid": [
+      "Do NOT run outside while shaking is occurring—falling debris causes most injuries.",
+      "Do NOT stand under doorways, near window glass, or heavy overhead light fixtures.",
+      "Do NOT use elevators during or immediately after tremors."
+    ],
+    "evacuationAndShelter": [
+      "Once shaking stops, evacuate calmly using staircase to open ground away from buildings, trees, and power lines.",
+      "If outdoors: Move to an open field or park away from tall buildings, utility poles, and streetlights.",
+      "Expect aftershocks and remain in open areas."
+    ],
+    "afterEventPrecautions": [
+      "Check yourself and nearby people for injuries; administer basic first aid.",
+      "Inspect utility lines (gas, water, electricity) for leaks or sparks.",
+      "Do not enter structurally damaged buildings after severe tremors."
+    ]
+  },
+  {
+    "id": "guide_weather",
+    "category": "Severe Weather and Lightning",
+    "title": "Thunderstorm, Cyclone & Lightning Protocols",
+    "emergencyWarning": "🚨 IMMEDIATE DANGER: When thunder roars, go indoors! Lightning can strike up to 10 miles away from rain. Call 112 for storm casualties.",
+    "immediateActions": [
+      "Seek shelter inside a sturdy concrete building or hard-topped metal vehicle immediately.",
+      "Unplug sensitive electrical appliances and stay away from corded phones.",
+      "Stay away from windows, glass doors, and outer walls during high wind gusts.",
+      "Keep phone charged and monitor official IMD weather advisories."
+    ],
+    "actionsToAvoid": [
+      "Do NOT stand under tall trees, metal structures, tin sheds, or open poles during lightning.",
+      "Do NOT take shelter near water bodies, metal fences, or high ground during storms.",
+      "Do NOT venture out to inspect cyclone or wind damage until official all-clear is given."
+    ],
+    "evacuationAndShelter": [
+      "For cyclones: Evacuate coastal low-lying areas to designated cyclone shelters as advised by SDMA.",
+      "Secure windows, doors, and loose outdoor items before high winds hit.",
+      "Stay in interior rooms away from windows during storm peak."
+    ],
+    "afterEventPrecautions": [
+      "Watch out for fallen trees, live electric wires, and damaged roads.",
+      "Avoid standing near unstable walls, roofs, or loose signboards.",
+      "Report snapped electric cables to the electricity board or local emergency control room."
+    ]
+  }
+]

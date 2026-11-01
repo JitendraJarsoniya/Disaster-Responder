@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">आपदा रिस्पॉन्डर</string>
+    <string name="app_subtitle">आपातकालीन संसाधन। बेहतर अनुक्रिया।</string>
+    <string name="welcome_tagline">तैयार रहें। सुरक्षित रहें। सहायता पाएं।</string>
+
+    <!-- Welcome Actions -->
+    <string name="btn_explore_guest">अतिथि के रूप में देखें</string>
+    <string name="btn_signin_role">साइन इन / भूमिका पहुंच</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">मुख्य पृष्ठ</string>
+    <string name="nav_map">मानचित्र</string>
+    <string name="nav_resources">संसाधन</string>
+    <string name="nav_report">रिपोर्ट</string>
+    <string name="nav_more">अधिक</string>
+
+    <!-- Header & Location -->
+    <string name="top_bar_title">आपदा रिस्पॉन्डर</string>
+    <string name="location_refreshed_prefix">अद्यतन</string>
+    <string name="location_default">नई दिल्ली, भारत</string>
+
+    <!-- Home Dashboard -->
+    <string name="home_quick_access">त्वरित पहुंच</string>
+    <string name="qa_nearby_resources">निकटतम संसाधन</string>
+    <string name="qa_nearby_resources_sub">अस्पताल, आश्रय स्थल, भोजन</string>
+    <string name="qa_emergency_guide">आपदा निर्देशिका</string>
+    <string name="qa_emergency_guide_sub">ऑफ़लाइन सुरक्षा गाइड</string>
+    <string name="qa_my_status">मेरी रिपोर्ट स्थिति</string>
+    <string name="qa_my_status_sub">दर्ज घटनाओं को ट्रैक करें</string>
+    <string name="qa_map">इंटरएक्टिव मानचित्र</string>
+    <string name="qa_map_sub">भौगोलिक स्थिति मार्कर</string>
+    <string name="sos_label">एसओएस</string>
+    <string name="sos_sublabel">आपातकाल</string>
+    <string name="sos_ui_only_note">आपातकालीन एसओएस बटन (केवल यूआई संदर्भ)</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">आपदा आपातकालीन मानचित्र</string>
+    <string name="map_search_placeholder">स्थान खोजें…</string>
+    <string name="filter_all">सभी</string>
+    <string name="filter_alerts">अलर्ट</string>
+    <string name="filter_hospitals">अस्पताल</string>
+    <string name="filter_shelters">आश्रय स्थल</string>
+    <string name="filter_more">अधिक फ़िल्टर…</string>
+    <string name="layer_standard">मानक (ओएसएम हॉट)</string>
+    <string name="layer_topo">धरातल (ओपनटोपोमैप)</string>
+    <string name="layer_satellite">सैटेलाइट इमेजरी</string>
+    <string name="layer_hybrid">हाइब्रिड सैटेलाइट</string>
+    <string name="legend_alerts">अलर्ट</string>
+    <string name="legend_resources">संसाधन</string>
+
+    <!-- Resource Directory -->
+    <string name="res_title">आपातकालीन संसाधन निर्देशिका</string>
+    <string name="res_search_placeholder">अस्पताल, आश्रय, भोजन बिंदु खोजें…</string>
+    <string name="res_call">आपातकालीन कॉल करें</string>
+    <string name="res_navigate">मानचित्र दिशा-निर्देश</string>
+    <string name="status_available">उच्च उपलब्धता</string>
+    <string name="status_limited">सीमित क्षमता</string>
+    <string name="status_full">पूर्ण / क्षमता समाप्त</string>
+
+    <!-- Report Screen -->
+    <string name="report_title">घटना रिपोर्ट जमा करें</string>
+    <string name="report_category">घटना श्रेणी</string>
+    <string name="report_location">घटना स्थान</string>
+    <string name="report_location_placeholder">पता दर्ज करें या जीपीएस बटन दबाएं</string>
+    <string name="report_desc">घटना का विवरण</string>
+    <string name="report_desc_placeholder">स्थिति, फंसे हुए लोग, चोटें, खतरे का वर्णन करें…</string>
+    <string name="report_submit">नियंत्रण कक्ष को रिपोर्ट भेजें</string>
+    <string name="report_use_gps">वर्तमान जीपीएस स्थान का उपयोग करें</string>
+
+    <!-- Alerts Screen -->
+    <string name="alerts_title">आधिकारिक आपदा अलर्ट और चेतावनियां</string>
+    <string name="alerts_subtitle">आईएमडी, एनडीएमए, सीडब्ल्यूसी और एसडीएमए द्वारा पुष्टित</string>
+    <string name="alerts_tab_active">सक्रिय चेतावनियां</string>
+    <string name="alerts_tab_updated">हाल ही में अद्यतन</string>
+    <string name="alerts_tab_archive">ऐतिहासिक संग्रह</string>
+    <string name="alerts_view_details">पूर्ण विवरण देखें</string>
+    <string name="alerts_corroborated">स्वतंत्र आधिकारिक अधिकारियों द्वारा पुष्टित</string>
+    <string name="alerts_hindi_translated">आधिकारिक हिंदी अनुवाद उपलब्ध</string>
+
+    <!-- AI Assistant -->
+    <string name="ai_title">एआई आपदा और सुरक्षा सहायक</string>
+    <string name="ai_hint">हिंदी या अंग्रेजी में पूछें (जैसे: चोट का प्राथमिक इलाज)...</string>
+    <string name="ai_voice_prompt">हिंदी या अंग्रेजी में बोलें...</string>
+
+    <!-- More & Settings -->
+    <string name="more_title">अधिक विकल्प और डैशबोर्ड</string>
+    <string name="more_alerts">आधिकारिक आपदा अलर्ट</string>
+    <string name="more_ai">एआई चैट सहायक</string>
+    <string name="more_my_reports">मेरी जमा की गई रिपोर्ट</string>
+    <string name="more_guide">ऑफ़लाइन आपातकालीन निर्देशिका</string>
+    <string name="more_settings">सेटिंग्स और प्राथमिकताएं</string>
+    <string name="more_help">सहायता एवं आपातकालीन जानकारी</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">आवेदन सेटिंग्स</string>
+    <string name="settings_appearance">ऐप उपस्थिति थीम</string>
+    <string name="settings_language">ऐप भाषा / Language</string>
+    <string name="settings_account">भूमिका पहुंच और खाता</string>
+    <string name="settings_sign_out">साइन आउट</string>
+    <string name="about_title">आवेदन के बारे में</string>
+
+    <!-- Admin & Responder -->
+    <string name="admin_title">प्रशासक प्रबंधन कंसोल</string>
+    <string name="admin_source_monitor">राष्ट्रीय स्रोत स्वास्थ्य मॉनिटर</string>
+    <string name="admin_manual_sync">मैनुअल सिंक</string>
+    <string name="admin_verify">रिपोर्ट सत्यापित करें</string>
+    <string name="admin_publish">अलर्ट प्रकाशित करें</string>
+    <string name="responder_title">आपातकालीन रिस्पॉन्डर कमांड कंसोल</string>
+    <string name="status_in_progress">प्रगति में</string>
+    <string name="status_resolved">हल किया गया</string>
+
+    <!-- General UI & Empty States -->
+    <string name="category_all">सभी श्रेणियां</string>
+    <string name="category_shelter">आश्रय स्थल</string>
+    <string name="category_hospital">अस्पताल</string>
+    <string name="category_food">भोजन और पानी</string>
+    <string name="category_rescue">बचाव सेवाएं</string>
+    <string name="incident_flood">बाढ़</string>
+    <string name="incident_fire">आग</string>
+    <string name="incident_earthquake">भूकंप</string>
+    <string name="incident_cyclone">चक्रवात</string>
+    <string name="incident_other">अन्य</string>
+    <string name="search_placeholder">नाम या स्थान द्वारा खोजें…</string>
+    <string name="explore_guest">अतिथि के रूप में देखें</string>
+    <string name="sign_in">साइन इन / पंजीकरण</string>
+    <string name="empty_resources">इस क्षेत्र में अभी तक कोई सत्यापित संसाधन उपलब्ध नहीं हैं।</string>
+    <string name="empty_alerts">जुड़े स्रोतों से कोई सक्रिय आधिकारिक अलर्ट नहीं मिला।</string>
+    <string name="empty_reports">इस क्षेत्र में अभी तक कोई घटना रिपोर्ट जमा नहीं की गई है।</string>
+</resources>

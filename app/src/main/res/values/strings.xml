@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Disaster Responder</string>
+    <string name="app_subtitle">Emergency Resources. Smarter Response.</string>
+    <string name="welcome_tagline">Be Ready. Stay Safe. Get Help.</string>
+
+    <!-- Welcome Actions -->
+    <string name="btn_explore_guest">Explore App as Guest</string>
+    <string name="btn_signin_role">Sign In / Role Access</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_resources">Resources</string>
+    <string name="nav_report">Report</string>
+    <string name="nav_more">More</string>
+
+    <!-- Header & Location -->
+    <string name="top_bar_title">Disaster Responder</string>
+    <string name="location_refreshed_prefix">Refreshed</string>
+    <string name="location_default">New Delhi, India</string>
+
+    <!-- Home Dashboard -->
+    <string name="home_quick_access">Quick Access</string>
+    <string name="qa_nearby_resources">Nearby Resources</string>
+    <string name="qa_nearby_resources_sub">Hospitals, Shelters, Food</string>
+    <string name="qa_emergency_guide">Emergency Guide</string>
+    <string name="qa_emergency_guide_sub">Offline Safety Protocols</string>
+    <string name="qa_my_status">My Request Status</string>
+    <string name="qa_my_status_sub">Track Reported Incidents</string>
+    <string name="qa_map">Interactive Map</string>
+    <string name="qa_map_sub">Geospatial Markers</string>
+    <string name="sos_label">SOS</string>
+    <string name="sos_sublabel">EMERGENCY</string>
+    <string name="sos_ui_only_note">Emergency SOS Button (UI Reference Only)</string>
+
+    <!-- Map Screen -->
+    <string name="map_title">Disaster Emergency Map</string>
+    <string name="map_search_placeholder">Search location…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_alerts">Alerts</string>
+    <string name="filter_hospitals">Hospitals</string>
+    <string name="filter_shelters">Shelters</string>
+    <string name="filter_more">More Filters…</string>
+    <string name="layer_standard">Standard (OSM HOT)</string>
+    <string name="layer_topo">Terrain (OpenTopoMap)</string>
+    <string name="layer_satellite">Satellite Imagery</string>
+    <string name="layer_hybrid">Hybrid Satellite</string>
+    <string name="legend_alerts">Alerts</string>
+    <string name="legend_resources">Resources</string>
+
+    <!-- Resource Directory -->
+    <string name="res_title">Emergency Resource Directory</string>
+    <string name="res_search_placeholder">Search hospital, shelter, food point…</string>
+    <string name="res_call">Call Emergency Phone</string>
+    <string name="res_navigate">Navigate Map</string>
+    <string name="status_available">High Availability</string>
+    <string name="status_limited">Limited Capacity</string>
+    <string name="status_full">Full / At Capacity</string>
+
+    <!-- Report Screen -->
+    <string name="report_title">Submit Incident Report</string>
+    <string name="report_category">Incident Category</string>
+    <string name="report_location">Incident Location</string>
+    <string name="report_location_placeholder">Enter address or use GPS button</string>
+    <string name="report_desc">Incident Description</string>
+    <string name="report_desc_placeholder">Describe situation, stranded victims, injuries, hazards…</string>
+    <string name="report_submit">Submit Report to Control Room</string>
+    <string name="report_use_gps">Use Current GPS Location</string>
+
+    <!-- Alerts Screen -->
+    <string name="alerts_title">Official Disaster Alerts &amp; Warnings</string>
+    <string name="alerts_subtitle">Corroborated by IMD, NDMA, CWC &amp; SDMA Authorities</string>
+    <string name="alerts_tab_active">Active Warnings</string>
+    <string name="alerts_tab_updated">Recently Updated</string>
+    <string name="alerts_tab_archive">Historical Archive</string>
+    <string name="alerts_view_details">View Full Details</string>
+    <string name="alerts_corroborated">Corroborated by Independent Official Authorities</string>
+    <string name="alerts_hindi_translated">Official Hindi Translation Available</string>
+
+    <!-- AI Assistant -->
+    <string name="ai_title">AI Disaster &amp; Safety Assistant</string>
+    <string name="ai_hint">Ask in English or Hindi (जैसे: चोट का प्राथमिक इलाज)...</string>
+    <string name="ai_voice_prompt">Speak in Hindi or English / हिंदी या अंग्रेजी में बोलें...</string>
+
+    <!-- More & Settings -->
+    <string name="more_title">More Options &amp; Dashboard</string>
+    <string name="more_alerts">Official Disaster Alerts</string>
+    <string name="more_ai">AI Chat Assistant</string>
+    <string name="more_my_reports">My Submitted Reports</string>
+    <string name="more_guide">Offline Emergency Guide</string>
+    <string name="more_settings">Settings &amp; Preferences</string>
+    <string name="more_help">Help &amp; Emergency Information</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Application Settings</string>
+    <string name="settings_appearance">App Appearance Theme</string>
+    <string name="settings_language">App Language / भाषा चुनें</string>
+    <string name="settings_account">Role Access &amp; Account</string>
+    <string name="settings_sign_out">Sign Out</string>
+    <string name="about_title">About Application</string>
+
+    <!-- Admin & Responder -->
+    <string name="admin_title">Administrator Management Console</string>
+    <string name="admin_source_monitor">National Source Health Monitor</string>
+    <string name="admin_manual_sync">Manual Sync</string>
+    <string name="admin_verify">Verify Report</string>
+    <string name="admin_publish">Publish Alert</string>
+    <string name="responder_title">Emergency Responder Command Console</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_resolved">Resolved</string>
+
+    <!-- General UI & Empty States -->
+    <string name="empty_resources">No verified resources available in this area yet.</string>
+    <string name="empty_alerts">No active official alerts found from connected sources.</string>
+    <string name="empty_reports">No incident reports submitted in this area yet.</string>
+</resources>
